@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,9 +12,7 @@
   </head>
   <body>
     <header class="header">
-      <a href="#home" class="logo">
-        Jorge <span>Preisler</span>
-      </a>
+      <a href="#home" class="logo"> Jorge <span>Preisler</span> </a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home">Home</a>
@@ -29,27 +27,25 @@
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hi, It's <span>Jorge</span></h1>
-        <h3>
-          I'm a <span>Frontend Developer</span>
-        </h3>
+        <h3>I'm a <span>Frontend Developer</span></h3>
         <p>
           I am a passionate Frontend Developer with a strong focus on creating
           visually appealing and user-friendly web applications. With a keen
-          eye for design and a solid understanding of frontend technologies,
-          I strive to deliver seamless user experiences that leave a lasting
+          eye for design and a solid understanding of frontend technologies, I
+          strive to deliver seamless user experiences that leave a lasting
           impression.
         </p>
 
         <div class="social-icons">
-          <a href="#">
+          <a href="https://github.com/preislerbtw">
             <i class="bx bxl-github"></i>
           </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com/in/jorge-preisler-2b206341b/?isSelfProfile=true">
             <i class="bx bxl-linkedin-square"></i>
           </a>
 
-          <a href="#">
+          <a href="https://x.com/preislerbtw">
             <i class="bx bxl-twitter"></i>
           </a>
         </div>
@@ -59,23 +55,21 @@
         </div>
       </div>
       <div class="home-img">
-        <img src="image.jpg" alt="">
+        <img src="image.jpg" alt="" />
       </div>
     </section>
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="image.jpg" alt="">
+        <img src="image.jpg" alt="" />
       </div>
 
       <div class="about-content">
         <h2>About <span>Me</span></h2>
         <p>
-          I am a passionate Frontend Developer with a strong focus on creating
-          visually appealing and user-friendly web applications. With a keen
-          eye for design and a solid understanding of frontend technologies,
-          I strive to deliver seamless user experiences that leave a lasting
-          impression.
+          Hi, I'm Jorge, a Computer Science student passionate about front-end development and building interfaces for the web
+          Currently improving my skills through personal projects, coding practice, and studying modern front-end tools and frameworks
+          Interested in creating visually engaging and responsive applications while continuously learning new techniques in UI development.
         </p>
         <a href="#" class="btn">Read More</a>
       </div>
@@ -113,33 +107,99 @@
 
     <section class="projects" id="projects">
       <h2 class="heading">Projects</h2>
-
       <div class="projects-box">
         <div class="project-card">
-          <img src="project1.png" alt="">
-
+          <img src="project1.png" alt="" />
           <h3>Project 1</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam in
-            tempora voluptate provident quo quas voluptatibus dignissimos
-            consequatur quae hic cupiditate corporis, libero aliquid itaque
-            dolor tenetur doloribus animi debitis!
+            A web application that displays commercial flights operating in South American airspace on an interactive map in real time. The project consumes the OpenSky Network public API to retrieve each aircraft's position, altitude, and speed, and enriches this information with route data (origin/destination) via AviationStack and weather conditions via Open-Meteo, providing a comprehensive view of the flight directly within the interface.
           </p>
+          <div class="btn">Review Project</div>
         </div>
 
         <div class="project-card">
-          <img src="project2.png" alt="">
+          <img src="project2.png" alt="" />
 
           <h3>Project 2</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam in
-            tempora voluptate provident quo quas voluptatibus dignissimos
-            consequatur quae hic cupiditate corporis, libero aliquid itaque
-            dolor tenetur doloribus animi debitis!
+            Spotify Clone - In progress :D
           </p>
+          <div class="btn">Review Project</div>
         </div>
       </div>
     </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-group"></div>
+
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+        </div>
+
+        <div class="input-box">
+          <input type="email" placeholder="Email" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Subject" />
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            placeholder="Your Message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/preislerbtw">
+          <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jorge-preisler-2b206341b/?isSelfProfile=true">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+
+        <a href="https://x.com/preislerbtw">
+          <i class="bx bxl-twitter"></i>
+        </a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+          <a href="#about">FAQ</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">© Jorge Preisler | All Rights Reserved</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
