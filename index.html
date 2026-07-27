@@ -130,31 +130,27 @@
       <h2 class="heading">Contact <span>Me</span></h2>
 
       <form action="#">
-        <div class="input-group"></div>
-
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" placeholder="Enter Your Full Name" />
         </div>
 
         <div class="input-box">
-          <input type="email" placeholder="Email" />
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter Your Email" />
         </div>
 
         <div class="input-box">
-          <input type="number" placeholder="Phone Number" />
-          <input type="text" placeholder="Subject" />
-        </div>
-
-        <div class="input-group-2">
+          <label for="message">Your Message</label>
           <textarea
-            name=""
-            id=""
-            placeholder="Your Message"
+            id="message"
+            placeholder="Enter Your Message"
             cols="30"
-            rows="10"
+            rows="5"
           ></textarea>
-          <input type="submit" value="Send Message" class="btn" />
         </div>
+
+        <input type="submit" value="Submit" class="btn" />
       </form>
     </section>
 
@@ -180,10 +176,6 @@
 
         <li>
           <a href="#skills">Skills</a>
-        </li>
-
-        <li>
-          <a href="#about">FAQ</a>
         </li>
 
         <li>
